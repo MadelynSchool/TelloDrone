@@ -57,10 +57,28 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
+        sendmsg('Battery?')
         sendmsg('takeoff')
 
         sendmsg('up 200')
         sendmsg('forward 200')
+
+        # Square - Pilot = Madelyn Hershberger - CoPilot = Ryan Jerzyk - CoPilot = Christopher Melbow
+
+        sendmsg('command')
+        sendmsg('takeoff',10)
+        sendmsg('forward 50',10)
+        sendmsg('ccw 90',10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
+        sendmsg('forward 50', 10)
+        sendmsg('ccw 90', 10)
+
+        # Triangle - Pilot = Ryan Jerzyk - CoPilot = Christopher Melbow - CoPilot = Madelyn Hershberger
+
+        # Circle - Pilot = Christopher Melbow - CoPilot = Ryan Jerzyk - CoPilot = Madelyn Hershberger
 
         sendmsg('land')
 
