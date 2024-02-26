@@ -63,7 +63,9 @@ try:
         # Second Checkpoint
         sendmsg('go 225 0 40 50', 10)
         # Third Checkpoint
-        
+        sendmsg('curve 125 125 0 0 250 0 50', 12)
+        sendmsg('cw 180', 7)
+        sendmsg('forward 40', 7)
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
 
