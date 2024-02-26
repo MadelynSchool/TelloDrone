@@ -59,8 +59,11 @@ try:
         sendmsg('battery?')
         sendmsg('command')
         sendmsg('takeoff', 7)
-        sendmsg('forward 200', 7)
-
+        sendmsg('forward 230', 7)
+        # Second Checkpoint
+        sendmsg('go 225 0 40 50', 10)
+        # Third Checkpoint
+        
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
 
